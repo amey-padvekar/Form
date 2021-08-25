@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="div1">
+      <h1>SURVEY FORM</h1>
+    </div>
+    <hr>
+    <div class="form1">
+      <form class="survey" action="mailto:ameypadvekar3@gmail.com" method="post" enctype="text/plain">
+        <div class="elements">
+
+
+        <div class="para">
+          <p>let us know how can we improve freeCodeCamp</p>
+        </div>
+        <label>Name:</label>
+        <input type="text" name="YourName" value="" placeholder="Full Name"><br>
+        <br>
+        <label>Email:</label>
+        <input type="text" name="YourEmail" value="" placeholder="example@domain.com"><br>
+        <br>
+        <label>Age:</label>
+        <input type="number" name="YourAge" value="" placeholder="Numbers only"><br><br>
+        <label>Which Option best describes Your currnet role?</label>
+        <select class="Role" name="YourRole">
+          <option value="None">None</option>
+          <option value="Student">Student</option>
+          <option value="web_developer">Web Developer</option>
+
+        </select><br>
+        <br>
+        <label>How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+        <input type="checkbox" name="How Likely" value="Not at All">
+        <label for="Not at All">Not likely</label>
+        <input type="checkbox" name="How_Likely" value="Somewhat">
+        <label for="Somewhat">Somewhat</label>
+        <input type="checkbox" name="How_Likely" value="Extremely">
+        <label for="Extremely">Extremely</label><br>
+        <br>
+        <button type="submit" name="Submit"><strong>Submit</strong></button><br>
+        <br>
+      </div>
+      </form>
+    </div>
+
+  </body>
+</html>

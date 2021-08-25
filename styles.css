@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  background-color: powderblue;
+}
+.div1{
+  padding-left: 250px;
+  margin-left:400px;
+  width:500px;
+  background-color: red;
+}
+hr{
+  border-style: solid;
+  background-color: black;
+}
+.form1{
+  border-width:10px;
+  align-items: center;
+}
+.elements{
+  border-radius: 5px;
+  display:inline-block;
+  background-color: white;
+  border:solid;
+  width:600px;
+  padding-left: 20px;
+  margin-left: 500px;
+}
+.para{
+  font-family:"Times New Roman" ,sans-serif;
+  font-size: 30px;
+  display: inline-block;
+}
